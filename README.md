@@ -14,8 +14,8 @@ virtualenv venv
 
 #### 3. Activate virtual environment
 ```
-For Windows:  1) cd venv
-              2) ./scripts/activate
+For Windows:  1) cd venv/scripts
+              2) activate
               
 For Linux:    source venv/bin/activate
 ```
@@ -31,4 +31,9 @@ pip install pymongo fastapi uvicorn
 #### 6. Run the app
 ```
 uvicorn index:app --reload
+```
+
+#### 7. To deactivate virtual environment use this command:
+```
+deactivate
 ```
