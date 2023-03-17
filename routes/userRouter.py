@@ -6,6 +6,7 @@ from bson import ObjectId
 
 user = APIRouter()
 
+# get all users.
 @user.get('/')
 async def getAllUsers():
     # print(conn.local.user.find())
